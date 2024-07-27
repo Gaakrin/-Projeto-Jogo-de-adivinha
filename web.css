@@ -1,0 +1,44 @@
+*:not(input){
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
+
+input{
+    opacity: 0%; 
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #222222;
+}
+
+div{
+    width: 20em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    padding: 2em;
+}
+
+.botao{
+    border: none;
+    background-color: hsl(174, 72%, 56%);
+    height: 2.5em;
+    width: auto;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: hsla(174, 72%, 76%);
+}
